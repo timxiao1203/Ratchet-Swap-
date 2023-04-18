@@ -1,6 +1,6 @@
 # Ratchet Swap
 
-A ratchet swap is an interest rate swap with two legs. One leg is a standard floating leg and the other leg is a ratchet leg. The ratchet leg pays a ratchet floating rate. Other swap types include accumulator swap (see https://finpricing.com/lib/FxAccumulator.html)
+A ratchet swap is an interest rate swap with two legs. One leg is a standard floating leg and the other leg is a ratchet leg. The ratchet leg pays a ratchet floating rate. 
 
 The ratchet floating rate coupon is based on an index, e.g., 6-month EURIBOR. The rate is further subject to a minimum decrease of 0 bps and a maximum increase of a threshold, such as, 15 bps. These rates are reset two business days prior to the first day of each coupon period. 
 
@@ -21,4 +21,4 @@ The valuation methodology is based on the Monte Carlo spot LIBOR rate model. The
 
 Reference:
 
-https://osf.io/4c78k/wiki/home/
+https://finpricing.com/knowledge.html
